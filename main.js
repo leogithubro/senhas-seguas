@@ -9,14 +9,22 @@ botoes[1].onclick = aumentarTamanho;
 
 function diminuiTamanho(){
     if (tamanhoSenha > 1){
-            tamanhoSenha = tamanhoSenha = -1;
+            //tamanhoSenha = tamanhoSenha = -1;
+            tamanhoSenha--;
     }
     numeroSenha.textContent = tamanhoSenha;
 }
 function aumentaTamanho(){
-    if (tamanhoSenha < 20)
-    tamanhoSenha = tamanhoSenha+1
+    if (tamanhoSenha < 20){
+         //tamanhoSenha = tamanhoSenha+1
+         tamanhoSenha++;
+    }
     numeroSenha.textContent = tamanhoSenha;
 }
 
-console.log(botoes);
+const campoSenha = document.querySelector('#campoSenha');
+
+const letrasMaiusculas = ''
+
+
+
